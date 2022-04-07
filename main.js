@@ -1,4 +1,4 @@
-let countDownDate = new Date("Apr 7, 2022 21:00:00").getTime();
+let countDownDate = new Date("Apr 8, 2022 21:00:00").getTime();
 
 let x = setInterval(function () {
   let now = new Date().getTime();
@@ -20,6 +20,6 @@ let x = setInterval(function () {
 const delay = document.getElementById("delay");
 
 function myMessage() {
-  delay.innerHTML = "* Falls Lina pünktlich ist";
+  delay.innerHTML = "* Falls Lina pünktlich ist &#128556;";
 }
 setTimeout(myMessage, 6000);
