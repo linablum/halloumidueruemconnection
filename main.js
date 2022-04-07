@@ -20,6 +20,6 @@ let x = setInterval(function () {
 const delay = document.getElementById("delay");
 
 function myMessage() {
-  delay.innerHTML = "* Falls Lina pünktlich ist &#128556;";
+  delay.innerHTML = "* Falls mal Lina pünktlich ist &#128556;";
 }
-setTimeout(myMessage, 6000);
+setTimeout(myMessage, 5000);
