@@ -1,4 +1,4 @@
-let countDownDate = new Date("Apr 8, 2022 21:00:00").getTime();
+let countDownDate = new Date("Apr 8, 2022 21:10:00").getTime();
 
 let x = setInterval(function () {
   let now = new Date().getTime();
@@ -12,8 +12,7 @@ let x = setInterval(function () {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML =
-      "Ganz bald hoffentlich wieder";
+    document.getElementById("countdown").innerHTML = "Jetzt!";
   }
 }, 1000);
 
@@ -23,3 +22,5 @@ function myMessage() {
   delay.innerHTML = "* Falls mal Lina pünktlich ist &#128556;";
 }
 setTimeout(myMessage, 5000);
+
+//"Vielleicht bald wieder &#128521;"
